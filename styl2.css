@@ -1,0 +1,182 @@
+body
+{
+	background-color:#ffff80;
+	color:#000000;
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	
+}
+
+#pojemnik
+{
+  width:100%;
+  height:100%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#ffff80;
+  
+  
+}
+
+#logo
+{
+	widht:100%;
+	height:70px;
+	font-size:45px;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	background-color:#00004d;
+	margin-top:0;
+	color:#ffffff;
+	text-decoration:underline;
+	
+	
+}
+
+#menu
+{
+	background-color:#cc0000;
+	font-size:20px;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	height:45px;
+	color:#000000;
+	
+	
+}
+
+ol
+{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	display:inline-block;
+	
+}
+
+ol a
+{
+	color: white;
+	text-decoration:none;
+	display:block;
+}
+
+ol>li
+{
+	float:left;
+	border-right: 1px dashed #660000;
+	margin-top:5px;
+	padding-right:30px;
+	padding-left:30px;
+
+	
+}
+
+ol>li:first-child
+{
+	border-left: 1px dashed #660000;
+	padding-left:30px;
+} 
+
+ol>li:hover
+{
+	font-size:22px;
+	background-color:#ff3333;
+	
+}
+
+.wyroznienie
+{
+	color: #1aff1a;
+	
+}
+
+#prawo
+{
+	width:50%;
+	float:left;
+	font-size:22px;
+	text-align:justify;
+	background-color:#bfbfbf;
+	height:740px;
+	padding-right:30px;
+	padding-top:80px;
+	
+	
+	
+	
+}
+
+#lewo
+{
+	width:40%;
+	float:left;
+	background-color:#bfbfbf;
+	height:740px;
+	margin-left:75px;
+	padding-top:80px;
+	
+	
+
+}
+
+.zdjecie
+{
+  text-align:center;
+  margin-top:20px;
+  border:1px solid #ff0000;
+  height:180px;
+  width:180px;
+  margin-left:auto;
+  margin-right:auto;
+  transition: transform  easy-in-out;
+}
+
+.napis
+{
+	color:#fffc54;
+}
+
+.zdjecie2
+{
+	height:200px;
+	width:300px;
+	border:1px solid #ff0000;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:90px;
+	transition: transform  easy-in-out;
+}
+
+.haslo
+{
+	margin-top:100px;
+	font-size:40px;
+	font-family: 'Patua One', cursive;
+	color:#ff0000;
+	
+}
+	
+.zdjecie2:hover
+{
+	transform: scale(1.2);
+}
+
+.zdjecie:hover
+{
+	transform: scale(1.2);
+}
+
+#akapit
+{
+	color:#ff1000;
+	font-family: 'Bitter', serif;
+	font-size:25px;
+}
+
+#justowanie
+{
+	text-align:justify;
+	font-size:18px;
+}
